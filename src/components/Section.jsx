@@ -7,15 +7,15 @@ import Fade from 'react-reveal/Fade';
 const Section = ({title, description,backgroundImg,leftBtnText,rightBtnText}) => {
   return (
     <Wrap bgImg={backgroundImg}>
-        <Fade bottom>
+       
       <ItemText>
         <h1>{title}</h1>
         <p>{description}</p>
         </ItemText>
-        </Fade>
+       
       
       <Buttons>
-      <Fade bottom>
+     s
 
       <ButtonGroup>
         <LeftButton>
@@ -26,7 +26,7 @@ const Section = ({title, description,backgroundImg,leftBtnText,rightBtnText}) =>
          {rightBtnText}
         </RightButton>}
       </ButtonGroup>
-      </Fade>
+     
       <DownArrow>
         <img src='/images/down-arrow.svg' alt={title}/>
       </DownArrow>
